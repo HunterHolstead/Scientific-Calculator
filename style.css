@@ -1,0 +1,113 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.calculator-wrapper{
+    width: 550px;
+    height: 800px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+}
+
+.calculator-display{
+    background-color: #f1f3f4;
+    width: 550px;
+    height: 100px;
+    border-bottom-width: 1px;
+    border-bottom-color: #f9f9f9;
+    border-bottom-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}/*#f9f9f9*/
+
+.display-text{
+    min-width: calc(520px - 20px);
+    height: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.05), 
+                0 2px 2px rgba(0,0,0,0.05), 
+                0 2px 2px rgba(0,0,0,0.05), 
+                0 2px 2px rgba(0,0,0,0.05),
+                0 2px 2px rgba(0,0,0,0.05), 
+                0 2px 2px rgba(0,0,0,0.05);
+}
+
+.button-wrapper{
+    background-color:#f7f7f7;
+    min-width: calc(520px - 20px);
+    height: calc(700px - 10px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.button-row-wrapper{
+    margin-top: 10px;
+    width: calc(550px - 20px);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.button{
+    background-color: #ffffff;
+    width: calc(530px / 4);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    align-content: center;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05), 
+                0 1px 1px rgba(0,0,0,0.05), 
+                0 1px 1px rgba(0,0,0,0.05), 
+                0 1px 1px rgba(0,0,0,0.05),
+                0 1px 1px rgba(0,0,0,0.05), 
+                0 1px 1px rgba(0,0,0,0.05);
+}
